@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPGAS COLLAGE</title>
+    <link rel="icon" href="evr.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background:url(periyar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper .sidebar{
+	background: rgb(5, 68, 104);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 225px;
+	height: 100%;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+	display: block;
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+	margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+	color: #ffffff;
+	margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+	color: rgb(206, 240, 253);
+	font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 1px solid #10558d;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+
+ 
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+	color: #0c7db1;
+
+	background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+	color: #1684b6;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+	display: block;
+}
+
+.wrapper .section{
+	width: calc(100% - 225px);
+	margin-left: 225px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+	background: rgb(7, 105, 185);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+ 
+}
+
+.wrapper .section .top_navbar .hamburger a{
+	font-size: 28px;
+	color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover{
+	color: #a2ecff;
+}
+
+ 
+
+body.active .wrapper .sidebar{
+	left: -225px;
+}
+
+body.active .wrapper .section{
+	margin-left: 0;
+	width: 100%;
+}
+#arts{
+    background-color: #0c7db1;
+    color: palevioletred;
+}
+#science{
+    background-color: aquamarine;
+    color: chocolate;
+}
+.total{
+    background-color: blueviolet;
+}
+.total2{
+    background-color: darkslategray;
+}
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <img src="evr.png">
+        <div class="rty">
+        <h1>THANTHAI PERIYAR GOVT ARTS AND SCIENCE COLLAGE</h1>
+        <h2>TRICHIRAPPALLI</h2> 
+    </div>
+  </center>
+  
+  
+    <div class="wrapper">
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                <div>
+           </div>
+             
+        </div><br>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="evr.png">
+                <h3><center>EVR COLLAGE</center> </h3>
+                <p>TRCHIRAPPALLI</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-desktop"></i></span>
+                        <span class="item">About as</span>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item">Examination</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="item">Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-database"></i></span>
+
+                        <span class="item">Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-chart-line"></i></span>
+                        <span class="item">Naac</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-shield"></i></span>
+                        <span class="item">NIRF</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-cog"></i></span>
+                        <span class="item">Contact us</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <p><center>
+       <img src="principal.jpg">
+       <h2 class="we">Principal</h2><br>
+       <div class="color">
+       <p><b>
+        This college is one of the renowned State Government Colleges in Higher Education, founded by Periyar Erode Venkata Ramasamy, a great Social Activist, Social Reformer and the founder of the Self Respect Movement. The approval for the College was given and it was inaugurated in 1965 by the then Chief Minister of Tamil Nadu, Honourable M. Bhakthavachalam. Periyar E.V.R College constantly aims to achieve its motto ‘Bringing economically poor rural youth to the reachable heights’. Our purpose is to provide the adequate higher educational platform for students to be moulded into holistic personalities.
+
+<br><h3> -P.S. Vijayalakshmi<br>
+Principal</h3></b>
+       </p>
+    </div>
+       <br>
+       <hr>
+      
+    </p>
+          <img class="w1" src="naac.jpg">  
+          <img class="w2" src="bharathidasan.jpg">
+      
+        <br>
+            State Government Autonomous College -     i<br>
+            Re-Accredited with<br>
+            'A' Grade by NAAC<br>
+            &<br>
+            Affiliated to Bharathidasan University, Trichy<br>
+       
+        <img src="ragging.png"><br>
+        <hr>
+        <h2>List Of Departments</h2>
+        
+        <div class="total">
+        <ul>
+            <li>
+                <div id="arts"><h2>ARTS</h2></div>
+             <b>
+                <li> Tamil</li>
+                <li> English</li>
+                <li> History</li>
+                <li> Econamics</li>
+               </b>
+            </li>
+        </div>
+        <div class="total2">
+           <li>
+           <div id="science"><h2>SCIENCE</h2></div> 
+           <b>
+             Computer Science<br>
+             Geograpy<br>
+             botony<br>
+             zoology<br>
+             Physics<br>
+             Chemistry
+            </b>    
+        </li>
+        </ul>
+    </div>
+
+    </center>
+      <script>
+            var hamburger = document.querySelector(".hamburger");
+         hamburger.addEventListener("click", function(){
+             document.querySelector("body").classList.toggle("active");
+         })
+  </script>
+     
+    
+</body>
+</html>
